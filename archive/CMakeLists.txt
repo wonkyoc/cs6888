@@ -22,7 +22,6 @@ add_executable(
 
 target_link_libraries(
     mock_db
-    gtest_main
     gmock_main
 )
 

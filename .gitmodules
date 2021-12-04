@@ -1,0 +1,6 @@
+[submodule "hiredis"]
+	path = hiredis
+	url = git@github.com:wonkyoc/hiredis.git
+[submodule "klee"]
+	path = klee
+	url = git@github.com:wonkyoc/klee.git
