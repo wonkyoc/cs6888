@@ -1,12 +1,18 @@
 How to run
 ==========
 
-# Build docker
+## Update sub repo
+```
+$ git submodule init
+$ git submodule update
+```
+
+## Build docker
 ```
 $ ./setup.sh
 ```
 
-# Run docker
+## Run docker
 ```
 $ docker images | head -n2 | tail -n1 | awk -F " " '{print $3}'
 <Docker image ID> # e.g., abcd
@@ -14,7 +20,7 @@ $ docker images | head -n2 | tail -n1 | awk -F " " '{print $3}'
 $ docker run --rm -ti --ulimit='stack=-1:-1' abcd
 ```
 
-# Run test
+## Run test
 ```
 klee@<container_id>:~$ pwd
 /home/klee
