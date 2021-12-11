@@ -1,6 +1,3 @@
-How to run
-==========
-
 # Prerequisite
 ## Update sub repo
 ```
@@ -8,6 +5,8 @@ $ git submodule init
 $ git submodule update
 ```
 
+
+After processing the prerequisite, you should follow either way to setup the system. We highly recommend that docker setup is the easiest way to do.
 
 # Docker setup
 ## Build docker
